@@ -30,7 +30,7 @@ def portscan(port):
 
     try:
         connection = s.connect((target, port))
-        print(f"{Back.LIGHTBLUE_EX}{Fore.LIGHTWHITE_EX}Port->> {port} open!") 
+        print(f"{Fore.RED}Port->> {port} open!") 
         connection.close()
     except:
         pass
