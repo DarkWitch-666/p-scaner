@@ -15,7 +15,7 @@ print()
 os.system("figlet P - S C A N E R | lolcat") #banner
 
 print()
-os.system("{date | lolcat}")
+os.system("date | lolcat")
 print(Fore.RED + '-' * 35)
 
 target = input(f'{Fore.LIGHTGREEN_EX}Host ->{Fore.LIGHTWHITE_EX} ')
